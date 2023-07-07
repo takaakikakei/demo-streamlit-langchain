@@ -1,0 +1,49 @@
+# OS 生成ファイル
+
+.DS_Store
+Thumbs.db
+
+# Python 生成ファイル
+
+_.py[cod]
+_.pyo
+_.pyd
+**pycache**
+_.egg-info/
+dist/
+build/
+_.egg
+_.pyc
+_.pyo
+_.pyd
+**pycache**
+
+# テストと文書
+
+/tests/
+/docs/
+
+# Git ファイル
+
+.git/
+.gitignore
+
+# ローカル環境設定
+
+.env
+.env.local
+\*.local.yml
+
+# Jupyter Notebook
+
+.ipynb_checkpoints
+\*.ipynb
+
+# VS Code
+
+.vscode/
+
+# Docker
+
+Dockerfile
+.dockerignore
