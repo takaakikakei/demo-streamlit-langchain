@@ -101,3 +101,11 @@ gcloud run deploy demo-streamlit-langchain --region "asia-northeast1" --source .
 ```
 
 refs: https://zenn.dev/google_cloud_jp/articles/streamlit-01-hello
+
+## 参考
+
+認証機能が提供されていないので、デプロイする際は、デプロイ先のセキュリティサービス or サードパーティのモジュールを利用推奨。
+
+- https://zenn.dev/google_cloud_jp/articles/streamlit-02-firebase
+- https://zenn.dev/matken/articles/restrict-cloud-run-to-in-house
+- https://github.com/mkhorasani/Streamlit-Authenticator
