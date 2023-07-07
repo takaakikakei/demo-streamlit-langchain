@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "demo-streamlit-langchain"
+version = "0.1.0"
+description = "LangChainをStreamlit上で動かすデモアプリ"
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "demo_streamlit_langchain"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.24.0"
+openai = "^0.27.8"
+langchain = "^0.0.220"
+python-dotenv = "^1.0.0"
+tiktoken = "^0.4.0"
+duckduckgo-search = "^3.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
